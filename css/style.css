@@ -1,0 +1,54 @@
+/* reset : reinitialise les styles par défaut du navigateur */
+
+a{
+    text-decoration: none;
+    color: inherit; /* inherit dit à lélément de prendre la valeur du parent */
+}
+
+ul, ol{
+    list-style: none;
+}
+
+*{ /* selecteur global */
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; /* la box s'adapte à la taille de son contenu */
+    
+}
+
+/* fin du reset */
+/* #F8974A; */
+
+*{
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+:root {
+    --orangeCI : #F8974A;
+}
+
+html {
+    display: flex;
+    justify-content: center;
+    
+}
+
+body {
+    
+    width: 70%;  /* Change avec @media */
+    
+}
+
+main {
+    height: 70vh;
+    padding-top: 50px;
+}
+
+h2, h3, h4{
+    color: var(--orangeCI);
+}
+
+footer{
+    margin-top: 80px;
+}

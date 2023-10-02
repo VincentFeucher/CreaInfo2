@@ -1,0 +1,53 @@
+header { 
+    display: flex;
+    flex-direction: column;
+    height: 110px;
+    background-color: black;
+    
+}
+
+.divHeader {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    float: left;
+    height: 100%;
+}
+
+h1 {
+    font-size: 50px;
+    float: left;
+    color: white;
+}
+
+.h1 {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    padding: 0px 30px;
+}
+
+header nav {
+    display: flex;
+    justify-content: end;
+    background-color: var(--orangeCI);
+}
+
+nav a {
+    margin: 10px;
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+}
+
+.sponsoGlab {
+    height: 100%;
+}

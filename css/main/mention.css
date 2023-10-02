@@ -1,0 +1,23 @@
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: auto;
+}
+
+
+
+
+h2 , h3, h4{
+    margin: 30px auto;
+}
+
+
+footer h4{
+    margin: 0px;
+}
+
+footer{
+    margin-top: 80px;
+}

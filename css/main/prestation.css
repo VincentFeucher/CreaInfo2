@@ -1,0 +1,131 @@
+/* reset : reinitialise les styles par défaut du navigateur */
+
+a{
+    text-decoration: none;
+    color: inherit; /* inherit dit à lélément de prendre la valeur du parent */
+}
+
+ul, ol{
+    list-style: none;
+}
+
+*{ /* selecteur global */
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; /* la box s'adapte à la taille de son contenu */
+}
+
+/* fin du reset */
+/* #F8974A; */
+
+*{
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+:root {
+    --orangeCI : #F8974A;
+}
+
+html {
+    display: flex;
+    justify-content: center;
+    
+}
+
+body {
+    
+    width: 70%;  /* Change avec @media */
+    
+}
+
+main {
+    
+    padding-top: 50px;
+}
+
+h2, h3, h4{
+    color: var(--orangeCI);
+}
+
+footer{
+    margin-top: 80px;
+}
+
+/* style propre */
+
+h2{
+    margin: 20px;
+}
+
+.CreaWeb{
+    margin-bottom: 10px;
+}
+
+li{
+    padding: 10px;
+    list-style-type: disc;
+    list-style-position: inside;
+}
+
+ul{
+    margin-top: 10px;
+}
+
+footer{
+    margin-top: 80px;
+}
+
+/* Tableau des prix */
+
+caption{
+    margin: 20px;
+    font-size: xx-large;
+}
+
+table{
+    
+    margin: 30px auto 30px auto;
+    table-layout: fixed;
+    width: 80%;
+    border-collapse: collapse;
+    border: 2px solid black;
+}
+
+thead th:nth-child(1){
+    width: 40%;
+    
+}
+
+thead th:nth-child(2){
+    width: 40%;
+}
+
+thead th:nth-child(3){
+    width: 20%;
+}
+
+th, td {
+    padding: 5px;
+    border: 1px solid black;
+}
+
+tbody td {
+    text-align: center;
+}
+
+thead{
+    background-color: var(--orangeCI);
+}
+
+thead th{
+    color: black;
+    font-weight: bold;
+}
+
+main h3{
+    margin: 10px;
+}
+
+
+
