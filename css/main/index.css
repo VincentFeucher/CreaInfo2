@@ -8,3 +8,15 @@ main {
 main div {
     margin: 50px;
 }
+
+.imgMain{
+    height: 300px;
+    position: static;
+
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}

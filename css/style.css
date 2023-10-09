@@ -22,6 +22,7 @@ ul, ol{
 *{
     font-family: 'Cabin', sans-serif;
     font-family: 'Work Sans', sans-serif;
+    font-size: large;
 }
 
 :root {
@@ -31,6 +32,12 @@ ul, ol{
 html {
     display: flex;
     justify-content: center;
+    background-image: url("../background/3451477.jpg");
+    background-repeat: round ;
+    background-attachment: fixed;
+}
+body{
+    background-color: rgba(255, 255, 255, 0.9) ;
     
 }
 
@@ -41,14 +48,39 @@ body {
 }
 
 main {
-    height: 70vh;
     padding-top: 50px;
 }
 
+main div {
+    margin: 50px;
+}
+
 h2, h3, h4{
-    color: var(--orangeCI);
+    color: var(--orangeCI); 
+}
+h2{
+    font-size:x-large;
+    margin-bottom: 10px;
+}
+h3 ,h4{
+    font-size: larger;
+    margin-bottom: 5px;
 }
 
 footer{
     margin-top: 80px;
+}
+
+.txtFoot{
+    margin: 0px 10px 0px 10px;
+}
+
+.divImgPrestation{
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+}
+
+.imgPrestation{
+    height: 400px;
 }

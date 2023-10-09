@@ -1,0 +1,25 @@
+.imgTaille{
+	
+	margin: auto;
+	height: 300px;
+    
+}
+
+.img2 , .img3{
+	opacity: 0;
+    position: absolute;
+}
+
+.img1{
+    position: absolute;
+}
+
+.imgVoid{
+    opacity: 0;
+}
+
+.img{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
